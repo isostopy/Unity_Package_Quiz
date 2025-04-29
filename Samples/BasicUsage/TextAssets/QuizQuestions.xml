@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+
+    <question_1>
+        <answer>0</answer>
+        <es>
+            <title>Primera pregunta. ¿Cuál es la opción correcta?</title>
+            <option>Opcion A</option>
+            <option>Opcion B</option>
+            <option>Opcion C</option>
+        </es>
+        <en>
+            <title>First question. What is the right option?</title>
+            <option>Option A</option>
+            <option>Option B</option>
+            <option>Option C</option>
+        </en>
+    </question_1>
+
+    <question_2>
+        <answer>2</answer>
+        <es>
+            <title>Segunda pregunta.</title>
+            <option>Opcion A</option>
+            <option>Opcion B</option>
+            <option>Opcion C</option>
+        </es>
+        <en>
+            <title>Second question.</title>
+            <option>Option A</option>
+            <option>Option B</option>
+            <option>Option C</option>
+        </en>
+    </question_2>
+
+</root>
