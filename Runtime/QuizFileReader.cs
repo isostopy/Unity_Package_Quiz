@@ -69,7 +69,7 @@ namespace Isostopy.Quiz
 		{
 			string id = questionNode.Name;
 			string title = "";
-			string[] options = null;
+			string[] options = { };
 			int rightAnswer = -1;
 
 			foreach (XmlNode node in questionNode.ChildNodes)
@@ -116,7 +116,7 @@ namespace Isostopy.Quiz
 					optionTranslationList.Add(optionNode.InnerText);
 				}
 
-				if (options != null)
+				if (options.Length == 0)
 					options = optionTranslationList.ToArray();
 			}
 
