@@ -45,7 +45,7 @@ namespace Isostopy.Quiz
 
 		// -----------------------------------------------------------------------
 
-		private void Start()
+		private void Awake()
 		{
 			foreach (var file in files)
 			{
