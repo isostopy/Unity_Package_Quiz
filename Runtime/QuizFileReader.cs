@@ -101,7 +101,7 @@ namespace Isostopy.Quiz
 				// Opciones
 				XmlNodeList optionNodes = node.SelectNodes(OptionNodeName);
 				List<string> optionTranslationList = new();
-				for (int i = 0; i < optionTranslationList.Count; i++)
+				for (int i = 0; i < optionNodes.Count; i++)
 				{
 
 #if ISOSTOPY_TRANSLATION
