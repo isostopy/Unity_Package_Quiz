@@ -24,6 +24,9 @@ namespace Isostopy.Quiz
 			questions.Add(question.id, question);
 		}
 
+
+		// ----------------------------------------------------------------------------------
+
 		/// <summary> Obten la pregunta con el id indicado. </summary>
 		public static QuizQuestion GetQuestion(string id)
 		{
@@ -33,6 +36,22 @@ namespace Isostopy.Quiz
 				return null;
 			}
 			return questions[id];
+		}
+
+
+		// ----------------------------------------------------------------------------------
+
+		/// <summary> Elimina la pregunta con el id indicado de la bateria de preguntas. </summary>
+		public static void RemoveQuestion(string id)
+		{
+			if (questions.ContainsKey(id))
+				questions.Remove(id);
+		}
+
+		/// <summary> Elimina todas las preguntas de la bateria de preguntas. </summary>
+		public static void ClearQuestions()
+		{
+			questions.Clear();
 		}
 	}
 
